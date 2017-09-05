@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_yellow_down">
+
+    <cn.lijingjiu.filterview.FilterView
+        android:id="@+id/fv_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        app:fv_add_icon="+"
+        app:fv_add_icon_color="@color/strong_pink"
+        app:fv_icon_size="26sp"
+        app:fv_tag_cancle_color="@color/warm_grey_50"
+        app:fv_tag_cancle_icon="x"
+        app:fv_tag_color="@color/tealishThree_60"
+        app:fv_tag_divid_height="8dp"
+        app:fv_tag_divid_width="8dp"
+        app:fv_tag_height="28dp"
+        app:fv_text_size="13sp" />
+</RelativeLayout>

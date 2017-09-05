@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="@color/tealishThree_30">
+    <TextView
+        android:id="@+id/search_filter_listview_group_text"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Filter Category"
+        android:textSize="19sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/search_filter_listview_group_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text=">"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="8dp"/>
+
+</LinearLayout>

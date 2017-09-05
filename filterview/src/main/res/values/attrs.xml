@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FilterView">
+        <attr name="fv_add_icon_color" format="color" />
+        <attr name="fv_tag_color" format="color" />
+        <attr name="fv_tag_cancle_color" format="color" />
+        <attr name="fv_tag_divid_width" format="dimension" />
+        <attr name="fv_tag_divid_height" format="dimension" />
+        <attr name="fv_tag_height" format="dimension" />
+        <attr name="fv_icon_size" format="dimension" />
+        <attr name="fv_text_size" format="dimension" />
+        <attr name="fv_add_icon" format="string" />
+        <attr name="fv_tag_cancle_icon" format="string" />
+    </declare-styleable>
+
+</resources>
